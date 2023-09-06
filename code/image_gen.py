@@ -8,7 +8,7 @@ API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffus
 
 def main():
     st.sidebar.markdown("<hr style='border: 2px solid red; width: 100%;'>", unsafe_allow_html=True)
-    st.sidebar.image("/Users/rahulkushwaha/Desktop/Image gen/image_gen/code/cropped-Sigmoid_logo_3x.png", use_column_width=True)
+    st.sidebar.image("code/cropped-Sigmoid_logo_3x.png", use_column_width=True)
     st.sidebar.markdown("<hr style='border: 2px solid red; width: 100%;'>", unsafe_allow_html=True)
     api_key = st.sidebar.text_input("Enter Your API key", type="password")
     
